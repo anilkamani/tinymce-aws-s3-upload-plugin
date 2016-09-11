@@ -8,8 +8,8 @@ This plugin adds a button to your TinyMCE editor which uploads selected file to 
 
 ###Usage
 
-##### 1. Add plugin javascript 
-Add ```dist/tinymce-aws-s3-upload-plugin.min.js``` in to your html.
+#### 1. Add plugin javascript 
+Add ```dist/tinymce-aws-s3-upload-plugin.min.js``` into your html.
  
 Or
  
@@ -20,16 +20,16 @@ npm i tinymce-aws-s3-upload-plugin
 import 'tinymce-aws-s3-upload-plugin'
 ```
 
-##### 2. Add AWS SDK javascript 
+#### 2. Add AWS SDK javascript 
 -You can skip this part if you done with the authentication to AWS.
 
 Add ```https://sdk.amazonaws.com/js/aws-sdk-2.5.3.min.js``` in to your html.
 
-######More information about Configuring AWS SDK in the browser
+#####More information about Configuring AWS SDK in the browser
 Amazon Web Services javascript SDK requires an authentication before make any request. So If you want to use this plugin, you should configure your authentication first. [Here you can find more information.](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/browser-configuring.html)
 There is several way to achieve that but plugin makes it with via AccessKeyId & SecretAccessKey. You can Google it for how to get them.  
  
-##### 3. Configure Plugin and Init TinyMCE
+#### 3. Configure Plugin and Init TinyMCE
 ```javascript
 tinymce.init({
             selector: 'textarea',
