@@ -4,7 +4,7 @@ This plugin adds a button to your TinyMCE editor which uploads selected file to 
 
 [🦄 Working Demo](http://ogpoyraz.com/tinymce-aws-s3-upload-plugin)
 
-![tinymce-aws-s3-upload-plugin](http://ogpoyraz.com/tinymce-aws-s3-upload-plugin/tinymce-aws-s3-upload-plugin-demo.gif)
+![tinymce-aws-s3-upload-plugin](http://ogpoyraz.com/tinymce-amazon-s3-upload-plugin/tinymce-amazon-s3-upload-demo.gif)
 
 ###Usage
 
