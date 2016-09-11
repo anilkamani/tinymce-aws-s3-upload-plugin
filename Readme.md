@@ -92,6 +92,3 @@ npm run development
 
 Thanks for reading.
 
-Thanks for reading.
-
-
